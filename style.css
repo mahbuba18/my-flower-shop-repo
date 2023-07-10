@@ -105,3 +105,9 @@ main{
     max-width: 1140;
     margin: 0 auto;
 }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
