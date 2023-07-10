@@ -107,6 +107,17 @@ main{
     max-width: 1140;
     margin: 0 auto;
 }
+.img-container{
+    width: 350px;
+    height:380px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-container img{
+    padding: 15px;
+    justify-content: space-between;
+}
 footer {
     text-align: center;
     padding: 3px;
