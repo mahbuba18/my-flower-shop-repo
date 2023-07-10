@@ -47,6 +47,8 @@ nav  >ul{
 nav li{
     list-style:  none;
     margin-right: 40px;
+    font-weight: 500;
+    font-size: 20px;
     
 
 }
@@ -79,4 +81,27 @@ nav a{
     height: 400px;
   
     
+}
+.banner-content{
+    max-width: 500px; 
+ }
+ .banner-greeting{
+   color: #474747;
+   margin-bottom: 0;
+ }
+
+.about{
+    padding: 30px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 100px 0;
+    margin-left: 350px;
+    text-align: center;
+    height:132px ;
+    width:594px ;
+     
+}
+main{
+    max-width: 1140;
+    margin: 0 auto;
 }
