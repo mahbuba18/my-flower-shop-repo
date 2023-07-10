@@ -15,6 +15,7 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+
 .section-title{
     color: #181818;
     text-align: center;
@@ -65,7 +66,6 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url('');
     background-repeat: no-repeat;
     background-position: bottom right;
 
@@ -79,6 +79,7 @@ nav a{
 .banner .profile-picture{
     width: 400px;
     height: 400px;
+    padding-right: 180px;
   
     
 }
@@ -87,6 +88,14 @@ nav a{
  }
  .banner-greeting{
    color: #474747;
+   margin-bottom: 0;
+ }
+ .banner-content1{
+    max-width: 500px;
+    text-align: center; 
+ }
+ .banner-greeting{
+   color: black;
    margin-bottom: 0;
  }
 
@@ -107,6 +116,60 @@ main{
     max-width: 1140;
     margin: 0 auto;
 }
+.img-section{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+   }
+.img-section img{
+     width: 250px;
+    height: 300px;
+    margin-bottom: 0px;
+  
+   }
+.img-1{
+    background-color: #F2DEE7;
+    padding-left: 30px;
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-bottom: 20px;
+   
+}
+.img-2{
+    background-color: #D9EFF1;
+    padding-left: 30px;
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-bottom: 20px;
+   
+}
+.img-3{
+    background-color: #E3EBDB;
+    padding-left: 30px;
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-bottom: 10px;}
+   
+.list-item{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 18px;
+}
+.list-item a{
+    text-decoration: none;
+    
+}
+.list-item li{
+    list-style: none;
+}
 .img-container{
     width: 350px;
     height:380px ;
@@ -117,6 +180,9 @@ main{
 .img-container img{
     padding: 15px;
     justify-content: space-between;
+}
+.last-section{
+    background-image: url('./Flower\ Asset');
 }
 footer {
     text-align: center;
