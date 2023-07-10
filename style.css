@@ -184,14 +184,25 @@ main{
     margin-bottom: 30px;
 
 }
+.last-section-division{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    
+}
 .last-section-greeting{
     text-align: center;
+    padding-bottom: 5px;
 }
 .search-option{
     text-align: center;
     justify-content: space-between;
 
 
+}
+.input-filed{
+    padding: 16px 3px  16px;
+    border: 0px;
+    border-radius: 5px;
 }
 footer {
     text-align: center;
