@@ -91,14 +91,16 @@ nav a{
  }
 
 .about{
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 100px 0;
     margin-left: 350px;
     text-align: center;
-    height:132px ;
+    height:200px ;
     width:594px ;
+    text-align: center;
      
 }
 main{
