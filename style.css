@@ -75,6 +75,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 .banner .profile-picture{
     width: 400px;
@@ -116,6 +117,9 @@ main{
     max-width: 1140;
     margin: 0 auto;
 }
+.img-section-bonous{
+    padding-bottom: 80px;
+}
 .img-section{
     margin-bottom: 10px;
     display: flex;
@@ -124,7 +128,7 @@ main{
 .img-section img{
      width: 250px;
     height: 300px;
-    margin-bottom: 0px;
+    padding-top: 100px;
   
    }
 .img-1{
