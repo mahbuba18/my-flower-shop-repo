@@ -113,12 +113,30 @@ nav a{
     text-align: center;
      
 }
+.about1{
+    border-radius: 10px;
+    background: lightgray;
+    text-align: center;
+    height:200px ;
+    width:594px ;
+    margin-left: 50px;
+    padding-top: 50px;
+
+   
+
+}
+.about-about{
+    padding-top: 140px;
+    padding-left: 255px;
+}
 main{
     max-width: 1140;
     margin: 0 auto;
 }
 .img-section-bonous{
     padding-bottom: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 .img-section{
     margin-bottom: 10px;
@@ -161,6 +179,7 @@ main{
     margin-bottom: 10px;}
    
 .list-item{
+    padding-top: 0px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -171,11 +190,15 @@ main{
     list-style: none;
     text-decoration: underline;
 }
+.bonous-below{
+    background: #FFF8F3;
+}
 .img-container{
     width: 350px;
     height:380px ;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 90px;
     
 }
 .img-container img{
@@ -185,7 +208,7 @@ main{
 .last-section{
     background-image: url('./Flower-Asset/Rectangle\ 9.png');
     height: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
 }
 .last-section-division{
@@ -208,9 +231,23 @@ main{
     border: 0px;
     border-radius: 5px;
 }
+.bonus-delivary{
+    background-image: url('./Flower-Asset/delivary.jpg');
+    height: 500px;
+    width: 1330px;
+    background-repeat:no-repeat ;
+    margin-left: 65px;
+    margin-right: 10px;
+    padding-bottom: 80px;
+    
+}
+
 footer {
     text-align: center;
     padding: 3px;
     background-color: black;
     color: white;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
